@@ -33,7 +33,7 @@ for the car to follow. Those code are explained in the project Q&A video (starti
 # Car Can Change Lanes
 Alread explained in the third section above. See my chooseNextLane function and cost functions for details.
 
-# Stand Out Criteria: Optimized Lane Changing
+# To Stand Out: Optimized Lane Changing
 See comments and code in line 241-255 for how I change two lanes consecutively. This nested if statement would bypass cost function 
 comparison and shift the car from a side lane to the center lane. Then when the chooseNextLane function is called again, the car would
 attempt to switch to the fastest lane. 
